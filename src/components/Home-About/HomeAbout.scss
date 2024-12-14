@@ -1,0 +1,25 @@
+.homeabout_component_section{
+    .card{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .card img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .card-body {
+        padding: 1.25rem 4rem;
+      
+        .card-text {
+          text-align: justify; 
+          line-height: 1.6; 
+        }
+      }
+}
